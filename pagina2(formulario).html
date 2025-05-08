@@ -1,0 +1,349 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+    background-image: url(fondo.jpg);
+}
+</style>
+</head>
+
+
+<body style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;">
+<h1>FORMULARIO.</h1>
+<form method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="200" border="0">
+    <tbody>
+      <tr>
+        <td><label for="FECHA">FECHA:</label>
+        <input name="FECHA" type="date" id="FECHA" title="FECHA" autocomplete="on"></td>
+        <td><label for="HORA">HORA:</label>
+        <input name="HORA" type="time" id="HORA" title="HORA" autocomplete="on"></td>
+      </tr>
+    </tbody>
+  </table>
+  <table width="200" border="0" align="right">
+    <tbody>
+      <tr>
+        <td height="113"><label for="FOTOGRAFIA">FOTOGRAFIA:</label>
+        <input type="file" name="FOTOGRAFIA" id="FOTOGRAFIA"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>DATOS PERSONALES.</h2>
+  <table width="548" border="0" align="center">
+    <tbody>
+      <tr>
+        <td width="42"><label for="APELLIDO PATERNO">APELLIDO PATERNO:</label>
+        <input type="text" name="APELLIDO PATERNO" id="APELLIDO PATERNO"></td>
+        <td width="42"><label for="APELLIDO MATERNO">APELLIDO MATERNO:</label>
+        <input type="text" name="APELLIDO MATERNO" id="APELLIDO MATERNO"></td>
+        <td width="42"><label for="NOMBRES">NOMBRES:</label>
+        <input type="text" name="NOMBRES" id="NOMBRES"></td>
+        <td width="392"><label for="EDAD">EDAD:</label>
+        <input name="EDAD" type="number" id="EDAD" max="80" min="15"></td>
+      </tr>
+      <tr>
+        <td><label for="DOMICILIO">DOMICILIO:</label><input type="text" name="DOMICILIO" id="DOMICILIO"></td>
+        <td>COLONIA:
+          <input type="text" name="COLONIA" id="COLONIA"></td>
+        <td><label for="CODIGO POSTAL">CODIGO POSTAL:</label>
+        <input type="text" name="CODIGO POSTAL" id="CODIGO POSTAL"></td>
+        <td><label for="TELEFONO">TELEFONO:</label>
+        <input type="tel" name="TELEFONO" id="TELEFONO"></td>
+      </tr>
+      <tr>
+        <td><label for="TEXT">LUGAR DE NACIMIENTO:</label>
+        <input type="text" name="TEXT" id="TEXT"></td>
+        <td><label for="textfield">FECHA DE NACIMIENTO:</label>
+        <input type="text" name="textfield" id="textfield"></td>
+        <td><label for="textfield2">NACIONALIDAD:</label><input type="text" name="textfield2" id="textfield2"></td>
+        <td><p>SEXO:
+          <label>
+            <br>
+            <input type="radio" name="SEXO" value="opción" id="SEXO_0">
+            MASCULINO</label>
+          <br>
+          <label>
+            <input type="radio" name="SEXO" value="opción" id="SEXO_1">
+            FEMENINO</label>
+          <br>
+          <label>
+            <input type="radio" name="SEXO" value="opción" id="SEXO_2">
+            OTRO</label>
+          <br>
+          <br>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td><p>VIVE CON :<br>
+            <label>
+              <input type="checkbox" name="VIVE CON" value="casilla de verificación " id="VIVECON_1">
+              SUS PADRES</label>
+          <br>
+          <label>
+            <input type="checkbox" name="VIVE CON" value="casilla de verificación " id="VIVECON_2">
+            FAMILIARES</label>
+          <br>
+          <label>
+            <input type="checkbox" name="VIVE CON" value="casilla de verificación " id="VIVECON_3">
+            PARIENTES</label>
+          <br>
+          <label>
+            <input type="checkbox" name="VIVE CON" value="casilla de verificación " id="VIVECON_4">
+            SOLO</label>
+          <br>
+          <label>
+            <input type="checkbox" name="VIVE CON" value="casilla de verificación " id="VIVECON_5">
+            AMIGOS</label>
+          <br>
+        </p></td>
+        <td><label for="number">PESO:</label>
+          <input type="number" name="number" id="number">
+          <label for="ESTATURA"><br>
+          <br>
+          </label>
+          <label for="number2">ESTATURA:</label>
+          <input type="number" name="number2" id="number2">
+          <label for="ESTATURA">:</label></td>
+        <td><p>PERSONAS QUE DEPNDEN DE USTED:</p>
+        <p>
+          <label>
+            <input type="checkbox" name="DEPENDE DE USTED" value="casilla de verificación " id="DEPENDEDEUSTED_0">
+            HIJOS</label>
+          <br>
+          <label>
+            <input type="checkbox" name="DEPENDE DE USTED" value="casilla de verificación " id="DEPENDEDEUSTED_1">
+            CONYUGE</label>
+          <br>
+          <label>
+            <input type="checkbox" name="DEPENDE DE USTED" value="casilla de verificación " id="DEPENDEDEUSTED_2">
+            PADRES</label>
+          <br>
+          <label>
+            <input type="checkbox" name="DEPENDE DE USTED" value="casilla de verificación " id="DEPENDEDEUSTED_3">
+            OTROS</label>
+          <br>
+        </p></td>
+        <td><p>ESTADO CIVIL:</p>
+        <p>
+          <label>
+            <input type="checkbox" name="ESTADO CIVIL." value="casilla de verificación " id="ESTADOCIVIL._0">
+            SOLTERO</label>
+          <br>
+          <label>
+            <input type="checkbox" name="ESTADO CIVIL." value="casilla de verificación " id="ESTADOCIVIL._1">
+            CASADO</label>
+          <br>
+          <label>
+            <input type="checkbox" name="ESTADO CIVIL." value="casilla de verificación " id="ESTADOCIVIL._2">
+            OTRO</label>
+          <br>
+        </p></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>HABITOS PERSONALES.</h2>
+  <table width="521" border="2" align="left">
+    <tbody>
+      <tr>
+        <td width="248"><p>¿COMO CONSIDERA SU ESTADO DE SALUD?</p>
+        <p>
+          <label>
+            <input type="radio" name="SALUD" value="opción" id="SALUD_0">
+            BUENA</label>
+          <br>
+          <label>
+            <input type="radio" name="SALUD" value="opción" id="SALUD_1">REGULAR</label>
+          <br>
+          <label>
+            <input type="radio" name="SALUD" value="opción" id="SALUD_2">
+            MALA</label>
+          <br>
+        </p></td>
+        <td width="255"><p>¿PADECE ALGUNA ENFERMEDAD CLINICA?</p>
+        <p>
+          <label>
+            <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+            SI(CUAL)</label>
+          <input type="text" name="textfield3" id="textfield3">
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+            NO</label>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td><p>¿PRACTICA ALGUN DEPORTE?</p>
+          <p>
+            <label>
+              <input type="radio" name="RadioGroup2" value="opción" id="RadioGroup2_0">
+              SI(CUAL)</label>
+            <input type="text" name="textfield4" id="textfield4">
+            <br>
+            <label>
+              <input type="radio" name="RadioGroup2" value="opción" id="RadioGroup2_1">
+              NO</label>
+            <br>
+          </p>
+        <p>&nbsp;</p></td>
+        <td><p>¿PASATIEMPO FAVORITO?</p>
+        <p>
+          <input type="text" name="textfield5" id="textfield5">
+        </p></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <h2>TIPOS DE DANZA.</h2>
+  <table width="536" height="151" border="2">
+    <tbody>
+      <tr>
+        <td colspan="3">A QUE DANZAS DESEA INGRESAR<span style="text-align: center"></span></td>
+      </tr>
+      <tr>
+        <td><p>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_0">
+            BRINCO DE CHILENO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_1">
+            DANZAS DE VERACRUZ</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_2">
+            DANZAS DEL NORTE</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_3">
+            DANZAS DE YUCATAN</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_4">
+            JARABE TAPATIO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_5">
+            DANZA DE LOS VIEJITOS</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_6">
+            HUAPANGO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_7">
+            DANZA DE LOS PARACHICOS</label>
+          <br>
+          <br>
+        </p></td>
+        <td><label>
+          <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_8">
+          BRINCO DE CHILENO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_9">
+            DANZAS DE VERACRUZ</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_10">
+            DANZAS DEL NORTE</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_11">
+            DANZAS DE YUCATAN</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_12">
+            JARABE TAPATIO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_13">
+            DANZA DE LOS VIEJITOS</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_14">
+            HUAPANGO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_15">
+        DANZA DE LOS PARACHICOS</label></td>
+        <td><label>
+          <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_16">
+          BRINCO DE CHILENO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_17">
+            DANZAS DE VERACRUZ</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_18">
+            DANZAS DEL NORTE</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_19">
+            DANZAS DE YUCATAN</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_20">
+            JARABE TAPATIO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_21">
+            DANZA DE LOS VIEJITOS</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_22">
+            HUAPANGO</label>
+          <br>
+          <label>
+            <input type="radio" name="RadioGroup3" value="opción" id="RadioGroup3_23">
+        DANZA DE LOS PARACHICOS</label></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>&nbsp;</h2>
+  <p>A CONTINUACION INGRESE SU CORREO ELECTRONICO</p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+  </p>
+  <p>ENVIE SU CORREO ELECTRONICO.</p>
+  <p>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="Restablecer">
+  </p>
+  <table width="200" border="2" align="center">
+    <tbody>
+      <tr>
+        <td>ANTERIOR</td>
+        <td>INDEX</td>
+      </tr>
+      <tr>
+        <td><a href="pagina1(conocenosmas).html"><img src="cartoon-girl-dancing-cinco-de-mayo-celebration-free-vector.jpg" width="201" height="234" alt=""/></a></td>
+        <td><a href="index (3).html"><img src="enlaceinterno.png" width="298" height="226" alt=""/></a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
